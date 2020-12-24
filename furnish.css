@@ -530,7 +530,7 @@ footer {
     font-size: 15px;
     margin-left: 10%;
     padding-left: 3%;
-    border-left: 3px solid coral;
+    border-left: 3px solid crimson;
 }
 
 #div_ul {
@@ -538,13 +538,17 @@ footer {
 }
 
 #div_ul a {
-    color: black;
+    color: #2f3a5f;
     position: relative;
     padding-bottom: 5%;
 }
 
-#div_ul a:hover {
-    color: coral;
+#div_ul a:hover span {
+    color: #2f3a5f;
+}
+
+#div_ul i {
+    color: crimson;
 }
 
 #div_ul a::after {
@@ -558,11 +562,11 @@ footer {
 
 #div_ul span {
     font-weight: 100;
+    color: black;
 }
 
 #div_ul li {
     margin-top: 10%;
-    color: black;
 }
 
 .con_div {
@@ -571,5 +575,5 @@ footer {
 }
 
 .icon_foot {
-    color: black;
+    color: crimson;
 }
