@@ -533,9 +533,10 @@ footer {
     border-left: 3px solid crimson;
 }
 
-#div_ul {
+
+/* #div_ul {
     margin-left: 0%;
-}
+} */
 
 #div_ul a {
     color: #2f3a5f;
@@ -576,4 +577,383 @@ footer {
 
 .icon_foot {
     color: crimson;
+}
+
+.contact_det {
+    padding: 9px 0;
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    color: #FFF8F1;
+    /* padding: 25psx; */
+}
+
+footer p {
+    text-align: center;
+    /* margin-top: -8px; */
+}
+
+
+/* ........................About.............................. */
+
+.about {
+    width: 100%;
+    overflow: auto;
+}
+
+.about h1 {
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.box {
+    margin-top: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.13);
+}
+
+.box p {
+    padding: 35px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.investor img {
+    width: 155px;
+    height: 150px;
+    padding: 15px 50px;
+}
+
+.mission {
+    text-align: center;
+}
+
+.mission h2 {
+    font-weight: 100;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.mission p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.mission .btn3 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.contact_info {
+    width: 100%;
+    height: 1300px;
+    padding-top: 50px;
+}
+
+.contact_info h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact_info h3 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact_row {
+    width: 100%;
+}
+
+.contact_col {
+    background-color: rgba(0, 0, 0, 0.041);
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.contact_col:hover {
+    box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.301);
+    border-radius: 5px;
+}
+
+.boxs {
+    margin-top: 15px;
+}
+
+.contact_col h2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: crimson;
+}
+
+.contact_col p {
+    padding: 20px;
+}
+
+.contact2 {
+    width: 100%;
+    height: 400px;
+    /* clear: both; */
+}
+
+.contact_row2 {
+    width: 100%;
+}
+
+.contact_col2 {
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin: 4%;
+}
+
+.contact_col2 h3 {
+    line-height: 5;
+}
+
+.contact_col2 h2 {
+    font-size: 20px;
+    padding-left: 3%;
+    border-left: 4px solid crimson;
+}
+
+.contact_col2 li {
+    margin-top: 5px;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    line-height: 3;
+}
+
+.contact_col2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.contact_col2 span {
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.contact_col2 .sp1:hover {
+    color: crimson;
+}
+
+.contact_col2 .ic:hover {
+    color: crimson;
+}
+
+.contact_col2 .sp {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: crimson;
+    padding-top: 6%;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    margin-left: 47%;
+    background-color: #FFC107;
+}
+
+.counter {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numeric {
+    text-align: center;
+    font-size: 25px;
+    margin: 70px;
+}
+
+.fullH {
+    overflow: auto;
+}
+
+
+/* ............................Services..................................... */
+
+.service_banner {
+    width: 100%;
+    height: 480px;
+    background: url('https://www.crushpixel.com/big-static12/preview4/illustration-3d-white-brick-wall-842133.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: 0 300px; */
+}
+
+.light_banner {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.opacity {
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.329);
+    padding-top: 5%;
+}
+
+.opacity h2 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-shadow: 0 5px 5px black;
+}
+
+.dropdown {
+    margin-left: 20%;
+    float: left;
+    margin-right: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    width: 200px;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.show {
+    display: block;
+}
+
+#btn4 {
+    padding: 15px 20px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.icon {
+    transform: rotate(180deg);
+}
+
+.search1 {
+    border: 1px solid white;
+    width: 500px;
+    height: 60px;
+    float: left;
+}
+
+.se_icon {
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.se_input {
+    padding: 15px;
+}
+
+.se_input input {
+    width: 430px;
+    background-color: transparent;
+    height: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.se_input ::placeholder {
+    color: white;
+}
+
+.services1 {
+    width: 100%;
+    height: 1000px;
+    background-color: #F7F7FC;
+    text-align: center;
+}
+
+.services1 h2 {
+    padding-top: 65px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+.services1 h3 {
+    padding-top: 15px;
+    color: #2F3A5F;
+    font-size: 25px;
+}
+
+.service_col {
+    width: 20%;
+    height: 250px;
+    float: left;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.service_col:hover {
+    box-shadow: 0px 0px 15px 0px rgba(128, 128, 128, 0.301);
+    border-radius: 5%;
+}
+
+.service_row {
+    width: 100%;
+}
+
+.service_col img {
+    width: 150px;
+    margin-top: 25px;
+}
+
+.service_col h4 {
+    color: #2F3A5F;
+    padding-top: 15px;
 }
